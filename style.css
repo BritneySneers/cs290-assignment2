@@ -1,0 +1,109 @@
+table{
+	border: solid medium;
+	border-collapse:collapse;
+}
+td {
+	border: solid thin;
+	height: 1.5em;
+	width: 3.5em;
+	text-align: center;
+	text-color:red;
+}
+
+th {
+	border: solid thin;
+	border-collapse:collapse;
+	height: 2.5em;
+	width:  6.5em;
+	background-color: #eee;
+}
+th:nth-child(1){
+	font-style:italic;
+	font-weight:normal;
+	text-align:right;
+}
+
+tr:nth-child(1){
+	text-align:center;
+	color:black;
+}
+
+tr:nth-child(odd) {
+    background-color: #9FF;
+}
+
+tr:nth-child(even) {
+    background-color: #9F9;
+}
+
+td:nth-child(2){
+	color:red;
+	border-color:black;
+}
+
+td:nth-child(4){
+	color:blue;
+	border-color:black;
+}
+
+tfoot>tr>td{
+	border: solid medium;
+	border-collapse:collapse;
+	height: 1.5em;
+	width: 3.5em;
+	text-align: center;
+	font-weight:bold;
+	color:black !important;
+	background-color:#eee;
+}
+
+dt:hover +dd {/*adapted from class discussion topic posted by Joshua Gonzalez at https://oregonstate.instructure.com/courses/1498916/discussion_topics/7515928*/
+	background-color:purple;
+}
+
+form {
+	display:inline-block;
+	text-align:center;
+	margin: 0 auto;
+	width:  400px;
+	padding:  1em;
+	border:  1px solid #CCC;
+	border-radius:  1em;
+}
+
+form div+div{
+	margin-top:  1em;
+}
+
+label{
+	display:  inline-block;
+	width:  180px;
+	text-align:  right;
+}
+
+input {
+	font:  1em sans-serif;
+	width:  180px;
+	-moz-box-sizing:  border-box;
+	box-sizing:  border-box;
+	border:  1px solid #999;
+}
+
+input:focus {
+	border-color:#F00;
+}
+img{
+	float:left;
+}
+.outer-content{
+	margin-top:20px;
+	background:pink;
+	text-align:center;
+	width:75%;
+}
+
+.inner-content{
+	background:#09C;
+	margin: 0 auto;
+	width:75%;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF 8"> <!--have to define character set, usually utf8-->
+		<title>League Sample HTML CSS website</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<section>
+			<table>
+				<caption>Weekly Leaderboard for Players in The League</caption>
+				<colgroup span=3>
+				<colgroup><col><col><col>
+				<colgroup><col><col><col>
+				<tbody>
+					<tr>   <th>              <th> Week 1  <th> Week 2 <th> Week 3 <th> Week 4 <th> Week 5 
+					<tr>   <th> First Place  <td> Ruxin   <td> Ellie  <td> Ellie  <td> Ellie  <td> Taco
+					<tr>   <th> Second Place <td> Ellie   <td> Ruxin  <td> Taco   <td> Taco   <td> Ellie 				
+					<tr>   <th> Third Place  <td> Andre   <td> Taco   <td> Ruxin  <td> Pete   <td> Andre 			
+					<tr>   <th> Fourth Place <td> Taco    <td> Andre  <td> Pete   <td> Andre  <td> Pete 
+					<tr>   <th> Fifth Place  <td> Kevin   <td> Pete   <td> Andre  <td> Ruxin  <td> Kevin
+				</tbody>
+				<tfoot> 
+					<tr>
+						<td colspan=2>Winner TBD Week 16</td>
+						<td colspan=4>NOTE:  Ruxin winner of Shiva last year.</td>
+					</tr>
+				</tfoot>
+			</table>
+		</section>
+		<dl>
+			<dt>Ruxin</dt>
+			<dd>The smart-alec of the group.</dd>
+			<dt>Taco</dt>
+			<dd>The idiot savant of the group.</dd>
+			<dt>Andre</dt>
+			<dd>The metrosexual of the group.</dd>
+			<dt>Ellie</dt>
+			<dd>The most level-headed of the group.</dd>
+			<dt>Kevin</dt>
+			<dd>The happy father of the group.</dd>
+			<dt>Pete</dt>
+			<dd>The least dysfunctional of the group.</dd>
+		</dl>
+		<form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form-tests/Formtest.php" method="post">
+			<label>Form Utilizing POST</label>
+			<div>
+				<label for="text">Input Text Here:</label>
+				<input type="text" id="text" name="text_input" />
+			</div>
+			<div>
+				<label for="number">Input Number Here:</label>
+				<input type="number" id="number" name="numerical_input"/>
+			</div>
+			<div>
+				<label for="password">Input Password Here:</label>
+				<input type="password" name="password_input"/>
+			</div>
+			<fieldset>
+			<legend>Radio Button Testcase: Candy</legend>
+				<p>
+					<input type="radio" id=Snickers name="candy" value="Snickers">
+					<label for="Snickers">Snickers</label><br/>
+					<input type="radio" id=Skittles name="candy" value="Skittles">
+					<label for="Skittles">Skittles</label><br/>
+					<input type="radio" id=Mentos name="candy" value="Mentos">
+					<label for="Mentos">Mentos</label><br/>
+				</p>
+			</fieldset>
+			<p>
+				<button type="submit">Click to send message</button>
+			</p>
+		</form>
+		<form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form-tests/Formtest.php" method="get">
+			<label>Form Utilizing GET</label>
+			<div>
+				<label for="text">Input Text Here:</label>
+				<input type="text" id="text" name="text_input" />
+			</div>
+			<div>
+				<label for="number">Input Number Here:</label>
+				<input type="number" id="number" name="numerical_input"/>
+			</div>
+			<div>
+				<label for="password">Input Password Here:</label>
+				<input type="password" name="password_input"/>
+			</div>
+			<fieldset>
+			<legend>Radio Button Testcase: Candy</legend>
+				<p>
+					<input type="radio" id=Snickers name="candy" value="Snickers">
+					<label for="Snickers">Snickers</label><br/>
+					<input type="radio" id=Skittles name="candy" value="Skittles">
+					<label for="Skittles">Skittles</label><br/>
+					<input type="radio" id=Mentos name="candy" value="Mentos">
+					<label for="Mentos">Mentos</label><br/>
+				</p>
+			</fieldset>
+			<p>
+				<button type="submit">Click to send message</button>
+			</p>
+		</form>
+		<div class="outer-content">
+			<br/>
+			<div class="inner-content">
+			The League used to be on FX, but recently switched to FXX, where its ratings dropped somewhat precipitously.
+			</div>
+			<br/>
+		</div>
+		<img src="league.jpg" alt="The League" height="125" width="100">
+		<p> 
+		The League is an FXX show featuring the snarky and mean-spirited antics of a handful of Chicagoans who play together in a fantasy football league.  While those with football knowledge will get more of the show's witty in-jokes, no knowledge of football is truly necessary to appreciate the well written humor evident throughout the program.  (Indeed, I detest spectator sports and haven't watched a football game aside from the Superbowl since 1997)
+		</p>
+		<p>
+		The League also has its share of unhinged peripheral characters.  Most notable among these is Rafi, the depraved, borderline-insane individual with no sense of social norms or personal boundaries.  His best friend, Dirty Randy, played by Seth Rogan in a recurring capacity, also displays a remarkable lack of tact and diplomacy, not to mention an overall dissociation with reality.
+		</p>
+	</body>
+</html>
