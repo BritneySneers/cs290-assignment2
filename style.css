@@ -15,7 +15,6 @@ th {
 	border-collapse:collapse;
 	height: 2.5em;
 	width:  6.5em;
-	background-color: #eee;
 }
 th:nth-child(1){
 	font-style:italic;
@@ -26,6 +25,7 @@ th:nth-child(1){
 tr:nth-child(1){
 	text-align:center;
 	color:black;
+	background-color: #FFF;
 }
 
 tr:nth-child(odd) {
@@ -34,6 +34,12 @@ tr:nth-child(odd) {
 
 tr:nth-child(even) {
     background-color: #9F9;
+}
+
+tr:nth-child(1){
+	text-align:center;
+	color:black;
+	background-color: #FFF;
 }
 
 td:nth-child(2){
@@ -54,14 +60,14 @@ tfoot>tr>td{
 	text-align: center;
 	font-weight:bold;
 	color:black !important;
-	background-color:#eee;
+	background-color:#FFF;
 }
 
 dt:hover +dd {/*adapted from class discussion topic posted by Joshua Gonzalez at https://oregonstate.instructure.com/courses/1498916/discussion_topics/7515928*/
 	background-color:purple;
 }
 
-form {
+form {/*form styling tweaks adapted from class introductory video re:forms and styling forms*/
 	display:inline-block;
 	text-align:center;
 	margin: 0 auto;
@@ -78,7 +84,7 @@ form div+div{
 label{
 	display:  inline-block;
 	width:  180px;
-	text-align:  right;
+	text-align:  left;
 }
 
 input {
